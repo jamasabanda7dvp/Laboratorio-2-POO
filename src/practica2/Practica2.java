@@ -20,7 +20,7 @@ public class Practica2 {
         int n;
         double valora,subtotal = 0,total = 0;
         
-        System.out.print("Ingrese el número de articulos:");
+        System.out.print("Ingrese el numero de articulos:");
         n = sc.nextInt();
         for (int i = 0; i < n; i++) {
             System.out.print("Ingrse el precio del producto "+(i+1)+":");
@@ -46,6 +46,6 @@ public class Practica2 {
             total = subtotal;
             System.out.println("No tiene descuento total:"+(total));
         }
-    }
-    
+        System.out.println("Gracias por comprar");
+    }    
 }
